@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\ESP8266WiFi\BearSSLHelpers.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\ESP8266WiFi\BearSSLHelpers.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\BearSSLHelpers.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\BearSSLHelpers.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/include/bearssl/bearssl.h \
@@ -82,4 +82,4 @@ c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\ESP8266WiFi\BearSSLHelper
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Stream.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/md5.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/StackThunk.h \
- c:\Users\ASUS\Desktop\weather_cube\src\build/core/Updater_Signing.h
+ e:\arduino\code\code\weather_cube\src\build/core/Updater_Signing.h

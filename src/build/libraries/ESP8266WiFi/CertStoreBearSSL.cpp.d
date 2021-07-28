@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\ESP8266WiFi\CertStoreBearSSL.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\ESP8266WiFi\CertStoreBearSSL.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\CertStoreBearSSL.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\CertStoreBearSSL.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \

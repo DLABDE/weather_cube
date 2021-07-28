@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\SPI\SPI.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\SPI\SPI.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\SPI\SPI.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\SPI\SPI.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \

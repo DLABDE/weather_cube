@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\DNSServer\DNSServer.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\DNSServer\DNSServer.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\DNSServer\src\DNSServer.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\DNSServer\src\DNSServer.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src/WiFiUdp.h \

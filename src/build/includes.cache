@@ -10,152 +10,52 @@
     "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\variants\\nodemcu"
   },
   {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "ESP8266WiFi.h",
-    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src"
-  },
-  {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "DNSServer.h",
-    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\DNSServer\\src"
-  },
-  {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "ESP8266WebServer.h",
-    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WebServer\\src"
-  },
-  {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "WiFiManager.h",
-    "Includepath": "E:\\arduino\\code\\libraries\\WiFiManager-master"
-  },
-  {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "ArduinoOTA.h",
-    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ArduinoOTA"
-  },
-  {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "SPI.h",
-    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\SPI"
-  },
-  {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
     "Include": "U8g2lib.h",
     "Includepath": "E:\\arduino\\code\\libraries\\U8g2\\src"
   },
   {
-    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "Ticker.h",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\Ticker\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\BearSSLHelpers.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "ESP8266WiFi.h",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\CertStoreBearSSL.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "DNSServer.h",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\DNSServer\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFi.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "ESP8266WebServer.h",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WebServer\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiAP.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "ESP8266_Seniverse.h",
+    "Includepath": "E:\\arduino\\code\\libraries\\ESP8266-Seniverse-master\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiGeneric.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "ArduinoJson.h",
+    "Includepath": "E:\\arduino\\code\\libraries\\ArduinoJson-6.15.1\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiMulti.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "WiFiManager.h",
+    "Includepath": "E:\\arduino\\code\\libraries\\WiFiManager-master"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA-WPS.cpp",
-    "Include": "",
-    "Includepath": null
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\SPI"
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiScan.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiClient.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiClientSecureAxTLS.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiClientSecureBearSSL.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiServer.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiServerSecureAxTLS.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiServerSecureBearSSL.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiUdp.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\DNSServer\\src\\DNSServer.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WebServer\\src\\detail\\mimetable.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "E:\\arduino\\code\\libraries\\WiFiManager-master\\WiFiManager.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ArduinoOTA\\ArduinoOTA.cpp",
-    "Include": "ESP8266mDNS.h",
-    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src"
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ArduinoOTA\\ArduinoOTA.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\SPI\\SPI.cpp",
+    "Sourcefile": "e:\\arduino\\code\\code\\weather_cube\\src\\build\\sketch\\src.ino.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -670,37 +570,122 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\ESP8266mDNS.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\Ticker\\src\\Ticker.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\ESP8266mDNS_Legacy.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\BearSSLHelpers.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\LEAmDNS.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\CertStoreBearSSL.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Control.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFi.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Helpers.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiAP.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Structs.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiGeneric.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Transfer.cpp",
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA-WPS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiClientSecureAxTLS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiClientSecureBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiServerSecureAxTLS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiServerSecureBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\DNSServer\\src\\DNSServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\ESP8266WebServer\\src\\detail\\mimetable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\arduino\\code\\libraries\\ESP8266-Seniverse-master\\src\\Forecast.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\arduino\\code\\libraries\\ESP8266-Seniverse-master\\src\\LifeInfo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\arduino\\code\\libraries\\ESP8266-Seniverse-master\\src\\WeatherNow.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\arduino\\code\\libraries\\WiFiManager-master\\WiFiManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\libraries\\SPI\\SPI.cpp",
     "Include": "",
     "Includepath": null
   },

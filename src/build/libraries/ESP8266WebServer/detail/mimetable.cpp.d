@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\ESP8266WebServer\detail\mimetable.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\ESP8266WebServer\detail\mimetable.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WebServer\src\detail\mimetable.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WebServer\src\detail\mimetable.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/pgmspace.h \

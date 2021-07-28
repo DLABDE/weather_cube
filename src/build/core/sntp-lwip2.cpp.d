@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\core\sntp-lwip2.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\core\sntp-lwip2.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\sntp-lwip2.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lwip2/include/lwip/init.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lwip2/include/lwip/opt.h \

@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\U8g2\clib\u8log_u8g2.c.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\U8g2\clib\u8log_u8g2.c.o: \
  E:\arduino\code\libraries\U8g2\src\clib\u8log_u8g2.c \
  E:\arduino\code\libraries\U8g2\src\clib\u8g2.h \
  E:\arduino\code\libraries\U8g2\src\clib\u8x8.h \

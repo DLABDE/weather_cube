@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\core\Updater.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\core\Updater.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\Updater.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\Updater.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \
@@ -69,7 +69,7 @@ c:\Users\ASUS\Desktop\weather_cube\src\build\core\Updater.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/md5.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\eboot_command.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/esp8266_peri.h \
- c:\Users\ASUS\Desktop\weather_cube\src\build/core/Updater_Signing.h \
+ e:\arduino\code\code\weather_cube\src\build/core/Updater_Signing.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/include/spi_flash.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/include/user_interface.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/include/os_type.h \

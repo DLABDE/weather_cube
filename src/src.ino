@@ -15,7 +15,7 @@
 #include <U8g2lib.h>
 //#include <ArduinoOTA.h>        
 
-//网络时钟API参数
+//网络时钟API参数(来源可能不稳定，可以更改稳定源)
 const char* host = "api.k780.com";
 const char* sig="/?app=life.time&appkey=59538&sign=18f62514ed993b3a9dd62d8b807a3b81&format=json"; 
 
@@ -24,7 +24,7 @@ const char* sig="/?app=life.time&appkey=59538&sign=18f62514ed993b3a9dd62d8b807a3
 #define pw "dzd123456"
 
 //心知天气API参数
-String reqUserKey = "SqXFTWdyiyNMx4dBr"; // 私钥
+String reqUserKey = ""; // 私钥(请使用自己的私匙)
 String reqLocation = "ip";        // 城市
 String reqUnit = "c";                  // 摄氏/华氏
 
@@ -88,21 +88,6 @@ unsigned int count=1;
 unsigned int state = 0;
 
 
-//系统初始化
-void system_config()
-{
-    Serial.begin(9600);Serial.println("system_config");
-    u8g2.begin();
-    open_face();
-
-    pinMode(LED_BUILTIN, OUTPUT); 
-    pinMode(D3, OUTPUT);
-    digitalWrite(D3,LOW); 
-    pinMode(KEY,INPUT);
-    
-    tickersec.attach(1,onesec_tick);
-}
-
 //开机动画
 void open_face()
 {
@@ -118,9 +103,9 @@ void open_face()
     for (int i = 0,k=0; i < 6; i++,k+=20)
     {
         u8g2.drawGlyph(k,60,0x41);u8g2.sendBuffer();
-        delay(300);
+        delay(200);
     }
-    delay(500);
+    delay(300);
 }
 
 //网络连接初始化
@@ -144,13 +129,28 @@ void web_connect_config()
     digitalWrite(LED_BUILTIN,HIGH);
 }
 
-//更新电池信息
+//更新电池信息(百分比)
 float updata_bat()
 {
     float bat=0;
     for(int i=0;i<=5;i++)
         bat+=analogRead(A0);
-    return (map(bat/5.0,0,1024,0,330)/100.0);
+    return ((map(bat/5.0,0,1024,0,330))-267.0)/(345.0-267.0)*100;
+}
+
+//系统初始化
+void system_config()
+{
+    Serial.begin(9600);Serial.println("system_config");
+    u8g2.begin();
+    open_face();
+
+    pinMode(LED_BUILTIN, OUTPUT); 
+    //pinMode(D3, OUTPUT);
+    //digitalWrite(D3,LOW); 
+    pinMode(KEY,INPUT);
+    
+    tickersec.attach(1,onesec_tick);
 }
 
 void setup() 
@@ -271,9 +271,14 @@ void wea_face()
 
 void sys_face()
 {
-    u8g2.setFont(u8g2_font_courB08_tn);
-    u8g2.setCursor(5,12);
+    u8g2.setFont(u8g2_font_ncenB10_tr);
+    u8g2.drawStr(45,12,"MSG");
+
+    u8g2.setFont(u8g2_font_courB08_tr);
+    u8g2.setCursor(5,25);
     u8g2.print("bat:");u8g2.print(sys_msg.bat);u8g2.print("%");
+
+
     u8g2.sendBuffer();
 }
 
@@ -297,11 +302,11 @@ void loop()
     {
         (*func_table[page])();
     }
-    if (count%120==0)//天气内容更新
+    if (count%240==0)//天气内容更新
     {
         get_weather(0);
     }
-    if (count%120==0)//ADC电池电压更新
+    if (count%30==0)//电池信息更新
     {
         sys_msg.bat=sys_msg.bat=updata_bat();
     }

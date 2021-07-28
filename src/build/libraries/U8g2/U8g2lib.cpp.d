@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\libraries\U8g2\U8g2lib.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\libraries\U8g2\U8g2lib.cpp.o: \
  E:\arduino\code\libraries\U8g2\src\U8g2lib.cpp \
  E:\arduino\code\libraries\U8g2\src\U8g2lib.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \

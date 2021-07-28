@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\core\core_esp8266_waveform.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\core\core_esp8266_waveform.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\core_esp8266_waveform.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/stdlib.h \

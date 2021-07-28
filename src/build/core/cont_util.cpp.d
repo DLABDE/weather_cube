@@ -1,4 +1,4 @@
-c:\Users\ASUS\Desktop\weather_cube\src\build\core\cont_util.cpp.o: \
+e:\arduino\code\code\weather_cube\src\build\core\cont_util.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\cont_util.cpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266\cont.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/string.h \
