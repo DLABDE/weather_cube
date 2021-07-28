@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\cores\\esp8266"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\ASUS\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.6.3\\variants\\nodemcu"
+  },
+  {
+    "Sourcefile": "c:\\Users\\ASUS\\Desktop\\weather_cube\\config\\build\\sketch\\sketch_jun03a.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
