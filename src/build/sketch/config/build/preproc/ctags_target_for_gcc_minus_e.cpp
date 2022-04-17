@@ -1,3 +1,4 @@
+#line 1 "e:\\arduino\\code\\code\\weather_cube\\src\\config\\build\\preproc\\ctags_target_for_gcc_minus_e.cpp"
 # 1 "c:\\Users\\ASUS\\Desktop\\weather_cube\\sketch_jun03a\\sketch_jun03a.ino"
 void setup() {
   Serial.begin(9600);

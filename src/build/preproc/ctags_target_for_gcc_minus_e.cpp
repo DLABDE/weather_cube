@@ -9,16 +9,17 @@
 # 9 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
 # 10 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
 # 11 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
+# 12 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
 
-# 13 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
 # 14 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
+# 15 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
 
-# 16 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
+# 17 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino" 2
 //#include <ArduinoOTA.h>        
 
 //网络时钟API参数(来源可能不稳定，可以更改稳定源)
-const char* host = "api.k780.com";
-const char* sig="/?app=life.time&appkey=59538&sign=18f62514ed993b3a9dd62d8b807a3b81&format=json";
+const char* host = "http://quan.suning.com/getSysTime.do";
+const char* sig="/";
 
 //配置CUBE参数
 
@@ -142,7 +143,7 @@ float updata_bat()
 //系统初始化
 void system_config()
 {
-    Serial.begin(9600);Serial.println("system_config");
+    Serial.begin(115200);Serial.println("system_config");
     u8g2.begin();
     open_face();
 
@@ -359,28 +360,64 @@ void get_weather(int a)
 void get_time()
 {
     digitalWrite(2,0x0);Serial.println("get_time");
+    /*
+
     WiFiClient client;
-    String httpRequest = String("GET ") +sig+ " HTTP/1.1\r\n" +
-                                "Host: " + host + "\r\n" +
+
+    String httpRequest = String("GET ") +sig+ " HTTP/1.1\r\n" + 
+
+                                "Host: " + host + "\r\n" + 
+
                                 "Connection: close\r\n\r\n";
+
     if (client.connect(host, 80))
+
     {
+
         client.print(httpRequest);// 向服务器发送http请求信息
+
         String status_response = client.readStringUntil('\n');// 获取并服务器响应状态行 
+
         Serial.print("status_response: ");Serial.println(status_response);
+
         client.find("\r\n\r\n");// 使用find跳过HTTP响应头
+
         client.find("datetime_1\":\"");
-        time_read(client.readString()); //解析时间
+
+        time_read(client.readString());      //解析时间
+
     }
-    else {Serial.println(" connection failed!");}
+
+    else {Serial.println(" connection failed!");}   
+
     client.stop(); //断开客户端与服务器连接工作
-    digitalWrite(2,0x1);
+
+    digitalWrite(LED_BUILTIN,HIGH);
+
+    */
+# 380 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+   HTTPClient http;
+   http.setTimeout(5000);
+   http.begin(host);
+   int httpCode = http.GET();
+   if (httpCode > 0)
+   {
+       Serial.printf("[HTTP] GET... code: %d\n", httpCode);
+       if (httpCode == HTTP_CODE_OK)
+       {
+           String response = http.getString();
+           Serial.println(response);
+           //Serial.println(response.substring(13, 23));
+           time_read(response.substring(13, 31));
+       }
+   }
 }
 
 //网络时间解析
 void time_read(String timea)//2021-06-05 14:05:17
 {
     time_msg.year=timea.substring(0,5).toInt();
+    //Serial.println(timea.substring(0, 5));
     time_msg.mon=timea.substring(5,8).toInt();
     time_msg.day=timea.substring(8,11).toInt();
     time_msg.hour=timea.substring(11,14).toInt();

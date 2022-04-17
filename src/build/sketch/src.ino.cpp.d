@@ -1,7 +1,7 @@
 e:\arduino\code\code\weather_cube\src\build\sketch\src.ino.cpp.o: \
  e:\arduino\code\code\weather_cube\src\build\sketch\src.ino.cpp \
  e:\arduino\code\code\weather_cube\src\build\sketch\bmp.h \
- E:\arduino\code\libraries\U8g2\src/U8g2lib.h \
+ E:\arduino\libraries\U8g2\src/U8g2lib.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/stdlib.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/machine/ieeefp.h \
@@ -69,11 +69,11 @@ e:\arduino\code\code\weather_cube\src\build\sketch\src.ino.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\variants\nodemcu/pins_arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\variants\nodemcu/../generic/common.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Print.h \
- E:\arduino\code\libraries\U8g2\src/U8x8lib.h \
- E:\arduino\code\libraries\U8g2\src/clib/u8x8.h \
+ E:\arduino\libraries\U8g2\src/U8x8lib.h \
+ E:\arduino\libraries\U8g2\src/clib/u8x8.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/limits.h \
- E:\arduino\code\libraries\U8g2\src/clib/u8g2.h \
- E:\arduino\code\libraries\U8g2\src/clib/u8x8.h \
+ E:\arduino\libraries\U8g2\src/clib/u8g2.h \
+ E:\arduino\libraries\U8g2\src/clib/u8x8.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\Ticker\src/Ticker.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Schedule.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src/ESP8266WiFi.h \
@@ -159,12 +159,13 @@ e:\arduino\code\code\weather_cube\src\build\sketch\src.ino.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WebServer\src/detail/RequestHandler.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WebServer\src/detail/mimetable.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WebServer\src/Parsing-impl.h \
- E:\arduino\code\libraries\ESP8266-Seniverse-master\src/ESP8266_Seniverse.h \
- E:\arduino\code\libraries\ESP8266-Seniverse-master\src/WeatherNow.h \
- E:\arduino\code\libraries\ArduinoJson-6.15.1\src/ArduinoJson.h \
- E:\arduino\code\libraries\ArduinoJson-6.15.1\src/ArduinoJson.hpp \
- E:\arduino\code\libraries\ArduinoJson-6.15.1\src/ArduinoJson/Configuration.hpp \
- E:\arduino\code\libraries\ESP8266-Seniverse-master\src/Forecast.h \
- E:\arduino\code\libraries\ESP8266-Seniverse-master\src/LifeInfo.h \
- E:\arduino\code\libraries\WiFiManager-master/WiFiManager.h \
+ E:\arduino\libraries\ESP8266-Seniverse-master\src/ESP8266_Seniverse.h \
+ E:\arduino\libraries\ESP8266-Seniverse-master\src/WeatherNow.h \
+ E:\arduino\libraries\ArduinoJson-6.15.1\src/ArduinoJson.h \
+ E:\arduino\libraries\ArduinoJson-6.15.1\src/ArduinoJson.hpp \
+ E:\arduino\libraries\ArduinoJson-6.15.1\src/ArduinoJson/Configuration.hpp \
+ E:\arduino\libraries\ESP8266-Seniverse-master\src/Forecast.h \
+ E:\arduino\libraries\ESP8266-Seniverse-master\src/LifeInfo.h \
+ C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266HTTPClient\src/ESP8266HTTPClient.h \
+ E:\arduino\libraries\WiFiManager-master/WiFiManager.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\SPI/SPI.h

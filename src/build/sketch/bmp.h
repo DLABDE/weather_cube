@@ -1,3 +1,4 @@
+#line 1 "e:\\arduino\\code\\code\\weather_cube\\src\\bmp.h"
 #ifndef _BMP_H_
 #define _BMP_H_
 

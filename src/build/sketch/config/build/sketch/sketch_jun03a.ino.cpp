@@ -1,3 +1,4 @@
+#line 1 "e:\\arduino\\code\\code\\weather_cube\\src\\config\\build\\sketch\\sketch_jun03a.ino.cpp"
 #include <Arduino.h>
 #line 1 "c:\\Users\\ASUS\\Desktop\\weather_cube\\sketch_jun03a\\sketch_jun03a.ino"
 #line 1 "c:\\Users\\ASUS\\Desktop\\weather_cube\\sketch_jun03a\\sketch_jun03a.ino"

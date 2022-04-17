@@ -1,6 +1,6 @@
 e:\arduino\code\code\weather_cube\src\build\libraries\ESP8266-Seniverse-master\Forecast.cpp.o: \
- E:\arduino\code\libraries\ESP8266-Seniverse-master\src\Forecast.cpp \
- E:\arduino\code\libraries\ESP8266-Seniverse-master\src\Forecast.h \
+ E:\arduino\libraries\ESP8266-Seniverse-master\src\Forecast.cpp \
+ E:\arduino\libraries\ESP8266-Seniverse-master\src\Forecast.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/stdlib.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/machine/ieeefp.h \
@@ -67,9 +67,9 @@ e:\arduino\code\code\weather_cube\src\build\libraries\ESP8266-Seniverse-master\F
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/debug.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\variants\nodemcu/pins_arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\variants\nodemcu/../generic/common.h \
- E:\arduino\code\libraries\ArduinoJson-6.15.1\src/ArduinoJson.h \
- E:\arduino\code\libraries\ArduinoJson-6.15.1\src/ArduinoJson.hpp \
- E:\arduino\code\libraries\ArduinoJson-6.15.1\src/ArduinoJson/Configuration.hpp \
+ E:\arduino\libraries\ArduinoJson-6.15.1\src/ArduinoJson.h \
+ E:\arduino\libraries\ArduinoJson-6.15.1\src/ArduinoJson.hpp \
+ E:\arduino\libraries\ArduinoJson-6.15.1\src/ArduinoJson/Configuration.hpp \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src/ESP8266WiFi.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src/include/wl_definitions.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/IPAddress.h \

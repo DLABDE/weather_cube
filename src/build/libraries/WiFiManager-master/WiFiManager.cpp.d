@@ -1,6 +1,6 @@
 e:\arduino\code\code\weather_cube\src\build\libraries\WiFiManager-master\WiFiManager.cpp.o: \
- E:\arduino\code\libraries\WiFiManager-master\WiFiManager.cpp \
- E:\arduino\code\libraries\WiFiManager-master\WiFiManager.h \
+ E:\arduino\libraries\WiFiManager-master\WiFiManager.cpp \
+ E:\arduino\libraries\WiFiManager-master\WiFiManager.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src/ESP8266WiFi.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/stdint.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/machine/_default_types.h \

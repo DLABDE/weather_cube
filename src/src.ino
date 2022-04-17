@@ -7,6 +7,7 @@
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266_Seniverse.h>
+#include <ESP8266HTTPClient.h>
 #include <WiFiManager.h> 
 
 #include <FS.h>
@@ -16,15 +17,15 @@
 //#include <ArduinoOTA.h>        
 
 //网络时钟API参数(来源可能不稳定，可以更改稳定源)
-const char* host = "api.k780.com";
-const char* sig="/?app=life.time&appkey=59538&sign=18f62514ed993b3a9dd62d8b807a3b81&format=json"; 
+const char* host = "http://quan.suning.com/getSysTime.do";
+const char* sig="/"; 
 
 //配置CUBE参数
 #define id "Weather Cube"
 #define pw "dzd123456"
 
 //心知天气API参数
-String reqUserKey = ""; // 私钥(请使用自己的私匙)
+String reqUserKey = "SqXFTWdyiyNMx4dBr"; // 私钥(请使用自己的私匙)
 String reqLocation = "ip";        // 城市
 String reqUnit = "c";                  // 摄氏/华氏
 
@@ -141,7 +142,7 @@ float updata_bat()
 //系统初始化
 void system_config()
 {
-    Serial.begin(9600);Serial.println("system_config");
+    Serial.begin(115200);Serial.println("system_config");
     u8g2.begin();
     open_face();
 
@@ -358,6 +359,7 @@ void get_weather(int a)
 void get_time()
 {
     digitalWrite(LED_BUILTIN,LOW);Serial.println("get_time");
+    /*
     WiFiClient client;
     String httpRequest = String("GET ") +sig+ " HTTP/1.1\r\n" + 
                                 "Host: " + host + "\r\n" + 
@@ -374,12 +376,29 @@ void get_time()
     else {Serial.println(" connection failed!");}   
     client.stop(); //断开客户端与服务器连接工作
     digitalWrite(LED_BUILTIN,HIGH);
+    */
+   HTTPClient http;
+   http.setTimeout(5000);
+   http.begin(host);
+   int httpCode = http.GET();
+   if (httpCode > 0) 
+   {
+       Serial.printf("[HTTP] GET... code: %d\n", httpCode);
+       if (httpCode == HTTP_CODE_OK) 
+       {
+           String response = http.getString();
+           Serial.println(response);
+           //Serial.println(response.substring(13, 23));
+           time_read(response.substring(13, 31));
+       }
+   }
 }
 
 //网络时间解析
 void time_read(String timea)//2021-06-05 14:05:17
 {
     time_msg.year=timea.substring(0,5).toInt();
+    //Serial.println(timea.substring(0, 5));
     time_msg.mon=timea.substring(5,8).toInt();
     time_msg.day=timea.substring(8,11).toInt();
     time_msg.hour=timea.substring(11,14).toInt();

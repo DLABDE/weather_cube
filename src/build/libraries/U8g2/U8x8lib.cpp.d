@@ -1,6 +1,6 @@
 e:\arduino\code\code\weather_cube\src\build\libraries\U8g2\U8x8lib.cpp.o: \
- E:\arduino\code\libraries\U8g2\src\U8x8lib.cpp \
- E:\arduino\code\libraries\U8g2\src\U8x8lib.h \
+ E:\arduino\libraries\U8g2\src\U8x8lib.cpp \
+ E:\arduino\libraries\U8g2\src\U8x8lib.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/stdlib.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/machine/ieeefp.h \
@@ -68,7 +68,7 @@ e:\arduino\code\code\weather_cube\src\build\libraries\U8g2\U8x8lib.cpp.o: \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\variants\nodemcu/pins_arduino.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\variants\nodemcu/../generic/common.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\cores\esp8266/Print.h \
- E:\arduino\code\libraries\U8g2\src\clib/u8x8.h \
+ E:\arduino\libraries\U8g2\src\clib/u8x8.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/include/limits.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\SPI/SPI.h \
  C:\Users\ASUS\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\Wire/Wire.h

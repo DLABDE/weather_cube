@@ -8,6 +8,7 @@
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266_Seniverse.h>
+#include <ESP8266HTTPClient.h>
 #include <WiFiManager.h> 
 
 #include <FS.h>
@@ -17,8 +18,8 @@
 //#include <ArduinoOTA.h>        
 
 //网络时钟API参数(来源可能不稳定，可以更改稳定源)
-const char* host = "api.k780.com";
-const char* sig="/?app=life.time&appkey=59538&sign=18f62514ed993b3a9dd62d8b807a3b81&format=json"; 
+const char* host = "http://quan.suning.com/getSysTime.do";
+const char* sig="/"; 
 
 //配置CUBE参数
 #define id "Weather Cube"
@@ -90,33 +91,33 @@ unsigned int state = 0;
 
 
 //开机动画
-#line 92 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 93 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void open_face();
-#line 112 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 113 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void web_connect_config();
-#line 133 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 134 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 float updata_bat();
-#line 142 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 143 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void system_config();
-#line 156 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 157 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void setup();
-#line 173 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 174 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void time_face();
-#line 213 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 214 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void wea_face();
-#line 272 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 273 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void sys_face();
-#line 289 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 290 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void loop();
-#line 317 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 318 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void get_weather(int a);
-#line 358 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 359 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void get_time();
-#line 380 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 398 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void time_read(String timea);
-#line 391 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 410 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void onesec_tick();
-#line 92 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
+#line 93 "e:\\arduino\\code\\code\\weather_cube\\src\\src.ino"
 void open_face()
 {
     Serial.println("open_face");
@@ -169,7 +170,7 @@ float updata_bat()
 //系统初始化
 void system_config()
 {
-    Serial.begin(9600);Serial.println("system_config");
+    Serial.begin(115200);Serial.println("system_config");
     u8g2.begin();
     open_face();
 
@@ -386,6 +387,7 @@ void get_weather(int a)
 void get_time()
 {
     digitalWrite(LED_BUILTIN,LOW);Serial.println("get_time");
+    /*
     WiFiClient client;
     String httpRequest = String("GET ") +sig+ " HTTP/1.1\r\n" + 
                                 "Host: " + host + "\r\n" + 
@@ -402,12 +404,29 @@ void get_time()
     else {Serial.println(" connection failed!");}   
     client.stop(); //断开客户端与服务器连接工作
     digitalWrite(LED_BUILTIN,HIGH);
+    */
+   HTTPClient http;
+   http.setTimeout(5000);
+   http.begin(host);
+   int httpCode = http.GET();
+   if (httpCode > 0) 
+   {
+       Serial.printf("[HTTP] GET... code: %d\n", httpCode);
+       if (httpCode == HTTP_CODE_OK) 
+       {
+           String response = http.getString();
+           Serial.println(response);
+           //Serial.println(response.substring(13, 23));
+           time_read(response.substring(13, 31));
+       }
+   }
 }
 
 //网络时间解析
 void time_read(String timea)//2021-06-05 14:05:17
 {
     time_msg.year=timea.substring(0,5).toInt();
+    //Serial.println(timea.substring(0, 5));
     time_msg.mon=timea.substring(5,8).toInt();
     time_msg.day=timea.substring(8,11).toInt();
     time_msg.hour=timea.substring(11,14).toInt();
