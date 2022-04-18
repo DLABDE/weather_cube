@@ -20,3 +20,4 @@
 * 天气信息显示，每隔一段时间查询天气信息（温度 湿度 天气等）
 * 电池电量检测，使用电阻分压获取
 
+![img](https://github.com/DLABDE/weather_cube/blob/main/doc/body.jpg)
