@@ -25,7 +25,7 @@ const char* sig="/";
 #define pw "dzd123456"
 
 //心知天气API参数
-String reqUserKey = "SqXFTWdyiyNMx4dBr"; // 私钥(请使用自己的私匙)
+String reqUserKey = "XXXX"; // 私钥(请使用自己的私匙)
 String reqLocation = "ip";        // 城市
 String reqUnit = "c";                  // 摄氏/华氏
 
@@ -136,7 +136,7 @@ float updata_bat()
     float bat=0;
     for(int i=0;i<=5;i++)
         bat+=analogRead(A0);
-    return ((map(bat/5.0,0,1024,0,330))-267.0)/(345.0-267.0)*100;
+    return ((map(bat/5.0,0,1024,0,330))-267.0)/(445.0-300.0)*100;
 }
 
 //系统初始化
@@ -278,6 +278,8 @@ void sys_face()
     u8g2.setFont(u8g2_font_courB08_tr);
     u8g2.setCursor(5,25);
     u8g2.print("bat:");u8g2.print(sys_msg.bat);u8g2.print("%");
+    u8g2.setCursor(5,38);
+    u8g2.print("DZD:DZD");
 
 
     u8g2.sendBuffer();
@@ -299,15 +301,20 @@ void loop()
             u8g2.clear();
         }
     }
-    if (count-state<=30)//刷新界面
+    if(count==5)
+    {
+      get_time();
+      get_weather(0);  
+    }
+    if (count-state<=50)//刷新界面
     {
         (*func_table[page])();
     }
-    if (count%240==0)//天气内容更新
+    if (count%300==0)//天气内容更新
     {
         get_weather(0);
     }
-    if (count%30==0)//电池信息更新
+    if (count%3==0)//电池信息更新
     {
         sys_msg.bat=sys_msg.bat=updata_bat();
     }
@@ -412,7 +419,7 @@ void onesec_tick()
     count++;
 
     //更新页码信息
-    if (count%10==0)
+    if (count%8==0)
     {
         page++;
         u8g2.clear();
@@ -441,7 +448,7 @@ void onesec_tick()
     }else{time_msg.sec+=1;}
 }
 
-
+//SqXFTWdyiyNMx4dBr
 /*
 0   晴（国内城市白天晴）    Sunny
 1   晴（国内城市夜晚晴）    Clear
